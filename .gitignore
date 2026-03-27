@@ -7,7 +7,7 @@
 
 # Only track SkaiRobot package config
 !packages/
-!packages/Skaitrobot.json
+!packages/Skairobot.json
 
 # Keep .gitignore itself
 !.gitignore

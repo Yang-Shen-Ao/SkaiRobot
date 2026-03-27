@@ -1,0 +1,17 @@
+{
+    "hpath": "$SkaiRobot",
+    "load_package_once": true,
+    "env": [
+        {
+            "SkaiRobot": "$LibPath/SkaiRobot"
+        },
+        {
+            "HOUDINI_OTLSCAN_PATH": {
+                "method": "append",
+                "value": [
+                    "$SkaiRobot/otls"
+                ]
+            }
+        }
+    ]
+}
